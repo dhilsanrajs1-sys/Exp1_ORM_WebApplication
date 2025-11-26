@@ -39,7 +39,7 @@ from .models import Student, StudentAdmin
 admin.site.register(Student, StudentAdmin)
 ```
 ## OUTPUT
-![alt text](<WhatsApp Image 2025-11-26 at 11.04.11_185bf58f-2.jpg>) ![alt text](<WhatsApp Image 2025-11-26 at 11.04.11_6259a3b1-2.jpg>) ![alt text](<WhatsApp Image 2025-11-26 at 11.04.11_e104b7df-2.jpg>)
+![alt text](SS1.jpg)![alt text](SS2.jpg)![alt text](SS3.jpg)
 
 ## RESULT
 Thus the program for creating car inventory database database using ORM hass been executed successfully
