@@ -2,7 +2,7 @@
 ## Date:30.11.2025
 
 ## AIM
-To develop a Django application to store and retrieve data from a Car Inventory Database using Object Relational Mapping(ORM).
+To develop a Django application to store and retrieve data from a customer Database using Object Relational Mapping(ORM).
 
 ## DESIGN STEPS
 
@@ -16,7 +16,7 @@ Create a new app in Django project
 Enter the code for admin.py and models.py
 
 ### STEP 4:
-Execute Django admin and create details for 5 Car 
+Execute Django admin and create details for 2 customer
 
 ## PROGRAM
  ```
@@ -35,6 +35,9 @@ class CustomerAdmin(admin.ModelAdmin):
 Admin.py
 from django.contrib import admin
 from .models import Customer, CustomerAdmin
+# Register your models here.
+admin.site.register(Customer, CustomerAdmin)
+
 ```
 ## OUTPUT
 
