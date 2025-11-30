@@ -1,5 +1,5 @@
 # Ex01 Django ORM Web Application
-## Date:26.11.2025
+## Date:30.11.2025
 
 ## AIM
 To develop a Django application to store and retrieve data from a Car Inventory Database using Object Relational Mapping(ORM).
@@ -19,27 +19,27 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 5 Car 
 
 ## PROGRAM
-```
-models.py
+ ```
+model.py
 from django.db import models
 from django.contrib import admin
 # Create your models here.
-class Student(models.Model):
-    student_name = models.CharField(max_length=20, help_text="Enter Student Name")
+class Customer(models.Model):
+    Customer_name = models.CharField(max_length=20, help_text="Enter Customer Name")
     age = models.IntegerField(help_text="Enter age between 18 to 22")
     dob = models.DateField()
-    reg_no = models.IntegerField(help_text="Enter the Register Number")
+    Customer_id = models.IntegerField(help_text="Enter the Register Number")
 
-class StudentAdmin(admin.ModelAdmin):
-    list_display = ['student_name', 'age', 'dob', 'reg_no']
-admin.py
+class CustomerAdmin(admin.ModelAdmin):
+    list_display = ['Customer_name', 'age', 'dob', 'Customer_id']
+Admin.py
 from django.contrib import admin
-from .models import Student, StudentAdmin
-# Register your models here.
-admin.site.register(Student, StudentAdmin)
-```
+from .models import Customer, CustomerAdmin
+
 ## OUTPUT
-![alt text](SS1.jpg)![alt text](SS2.jpg)![alt text](SS3.jpg)
+
+ <img width="1901" height="800" alt="Screenshot 2025-11-30 140217" src="https://github.com/user-attachments/assets/7a5853d0-ca64-44b4-9e29-f1557aa55d4c" />
+
 
 ## RESULT
-Thus the program for creating car inventory database database using ORM hass been executed successfully
+Thus the program for creating customer inventory database database using ORM hass been executed successfully
