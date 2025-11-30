@@ -35,7 +35,7 @@ class CustomerAdmin(admin.ModelAdmin):
 Admin.py
 from django.contrib import admin
 from .models import Customer, CustomerAdmin
-
+```
 ## OUTPUT
 
  <img width="1901" height="800" alt="Screenshot 2025-11-30 140217" src="https://github.com/user-attachments/assets/7a5853d0-ca64-44b4-9e29-f1557aa55d4c" />
